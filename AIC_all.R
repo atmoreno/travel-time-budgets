@@ -1,6 +1,14 @@
 
 #Calculate travel time budget considering all trip purposes
 
+#-------loading libraries in R----------------------------
+library("MASS", lib.loc="C:/Program Files/R/R-3.0.3/library")
+library("ggplot2", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
+library("plyr", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
+library("leaps", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
+library("gvlma", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
+library("reshape2", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
+library("survival", lib.loc="C:/Program Files/R/R-3.0.3/library")
 
 #-------read the data-------------------------------------
 data_base<-read.csv("C:/Users/AnaTsui/Desktop/Maryland DB/DDBB_HH1.csv") 
